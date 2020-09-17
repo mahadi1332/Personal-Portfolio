@@ -1,0 +1,326 @@
+/*------------------Common Compponents----------------*/
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.section {
+    padding: 100px 0;
+}
+/*--------------------************---------------------*/
+/*--------------------Image Slider---------------------*/
+.slides-navigation .next,
+.slides-navigation .prev {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slides-navigation a.prev {
+    background-image: url(../img/icons/previous.png);
+}
+.slides-navigation a.prev:hover{
+    transform: scale(1.1);
+}
+.slides-navigation a.next {
+    background-image: url(../img/icons/next.png);
+}
+.slides-navigation a.next:hover{
+    transform: scale(1.1);
+}
+.slider_text{
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 3;
+    text-align: center;
+    vertical-align: center;
+    margin-top: -100px;
+    position: absolute;
+    letter-spacing: 7px;
+    font-weight: 100;   
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(255, 255, 255, 0.4);
+}
+.slider_text__name {  
+    font-size: 500%;
+}
+.slider_text__title {
+    font-size: 300%;
+}
+/*--------------------************---------------------*/
+/*--------------------About Section--------------------*/
+.about__image {
+    max-width: 100%;
+}
+/*--------------------************---------------------*/
+/*--------------------Skill Section--------------------*/
+.skillsSection {
+    background-color: #ff5e37;
+    color: #fff;
+}
+.skill {
+    text-align: center;
+}
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    margin-left: 25px;
+    text-align: center;
+}
+.chart canvas {
+    position: absolute;
+    left: 0;
+    right: 0;  
+}
+.chart .percent {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 30px;
+}
+.chart .percent:after{
+    content: '%';
+}
+/*--------------------************---------------------*/
+/*--------------------stats Section--------------------*/
+.squareItem {
+	margin-top: 30px;
+    position: relative;
+}
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
+}
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+	content: '';
+	position: absolute;
+	top: 0px;
+	width: 30%;
+	border-bottom: 2px solid #444;
+}
+.squareInnerContainer:before {
+	right: 0px;
+}
+.squareInnerContainer:after {
+	left: 0px
+}
+.squareContent h2 {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-weight: 400;
+	color: #ff5e37;
+}
+.squareContent h3 {
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0;
+}
+.squareIcon {
+	position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 40%;
+    height: 60px;
+    font-size: 45px;
+    margin-left: -20%;
+    color: #ff5e37;
+}
+/*--------------------************---------------------*/
+/*------------------Contact Section--------------------*/
+.contactSection {
+    background-color: #ff5e37;
+    color: #fff;
+}
+.contractButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+.contractButton:hover {
+    text-decoration: none;
+    color: #e74c3c;
+    background-color: #fff;
+    transform: scale(1.1);
+}
+/*--------------------************---------------------*/
+/*------------------Portfolio Section------------------*/
+.filter a {
+    color: #bdc3c7;
+    border: 1px solid #bdc3c7;
+    padding: 10px 18px;
+    display: block;
+}
+.filter li {
+    display: inline-block;
+    padding: 5px;
+}
+.filter .current {
+    background-color: #ff5e37;
+    border-color: #ff5e37;
+    color: #fff;
+}
+.filter {
+    text-align: center;
+    width: 100%;
+}
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.items li {
+    display: inline-block;
+    padding: 5px;
+}
+.itemsContainer {
+    width: 100%;
+}
+.items li img {
+    width: 100%;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    transition: all 0.2s linear, 1s;
+}
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.items .icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+.items .icons i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 9px;
+}
+.items a {
+    width: 40px;
+    height: 40px;
+    background-color: #ff5e37;
+    position: relative;
+    display: inline-block;
+    -webkit-transition: all 0.2s linear, 0.5s;
+    -moz-transition: all 0.2s linear, 0.5s;
+    -o-transition: all 0.2s linear, 0.5s;
+    transition: all 0.2s linear, 0.5s;
+}
+.items .imageOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    transition: all 0.2s linear, 1s;
+}
+.items .item:hover .imageOverlay {
+    opacity: 1;
+}
+.items .openButton {
+    float: left;
+    left: -200px;
+}
+.items .projectLink {
+    float: right;
+    right: -200px;
+}
+.items .item:hover .openButton {
+    left: 0px;
+}
+.items .item:hover .projectLink {
+    right: 0px;
+}
+.items .item:hover img {
+    -webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+.items {
+    padding: 0;
+}
+/*--------------------************---------------------*/
+/*--------------------Footer Section-------------------*/
+.copyrightSection {
+    background-color: #ff5e37;
+    color: #fff;
+    padding: 30px 5px;
+}
+.copyrightSection p {
+    margin: 0;
+}
+/*--------------------************---------------------*/
+/*------------------Navigation Section-----------------*/
+#navigation {
+    background-color: #ff5e37;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+#navigation li {
+    padding: 0 10px;
+}
+#navigation li a {
+    color: #fff;
+}
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    color: #bdc3c7;
+    padding-top: 5px;
+    background-size: 100%;
+}
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+/*--------------------************---------------------*/
+/*---------------Loading Screen Section----------------*/
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../img/loader.gif) center center no-repeat;
+}
+/*--------------------************---------------------*/

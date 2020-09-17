@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20200916T150000Z
+DTEND:20200916T160000Z
+DTSTAMP:20200915T123141Z
+ORGANIZER;CN=asdtechltd@gmail.com:mailto:asdtechltd@gmail.com
+UID:cgqm2c1gcos34b9mc8sjeb9kc9gj2b9oc4pjgb9o6pij0d1h6pi3edj3cg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=asdtechltd@gmail.com;X-NUM-GUESTS=0:mailto:asdtechltd@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=01.mahadi@gmail.com;X-NUM-GUESTS=0:mailto:01.mahadi@gmail.com
+X-MICROSOFT-CDO-OWNERAPPTID:1330682489
+CREATED:20200915T123138Z
+DESCRIPTION:Please make sure you have Skype or WhatsApp messenger at phone 
+ and TeamViewer or Skype at machine.\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit thi
+ s section of the description.\n\nView your event at https://www.google.com/
+ calendar/event?action=VIEW&eid=Y2dxbTJjMWdjb3MzNGI5bWM4c2plYjlrYzlnajJiOW9j
+ NHBqZ2I5bzZwaWowZDFoNnBpM2VkajNjZyAwMS5tYWhhZGlAbQ&tok=MjAjYXNkdGVjaGx0ZEBn
+ bWFpbC5jb21mMDJmMGI4YzAxNjhkZmVkNTgyYjM0YTVjNTllOWFjNThhNWE0Y2Y1&ctz=Asia%2
+ FDhaka&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20200915T123139Z
+LOCATION:
+SEQUENCE:1
+STATUS:TENTATIVE
+SUMMARY:Interview with ASDtechLtd
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

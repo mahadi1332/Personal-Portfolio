@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--This is the atachments for  CSS and JS for Bootstrap CDN, Super Slider, Jquery-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="loader">
+        <div class="inner"></div>
+    </div>
+    <div id="slides">
+        <div class="overlay"></div>
+        <div class="slides-container">
+            <img src="img/slider-image-01.jpg" alt="">
+            <img src="img/slider-image-02.jpg" alt="">
+            <img src="img/slider-image-03.jpg" alt="">
+            <img src="img/slider-image-04.jpg" alt="">
+            <img src="img/slider-image-05.jpg" alt="">
+        </div>
+        <div class="slider_text">
+            <div class="slider_text__container">
+                <p class="slider_text__name typed__name"></p>
+                <p class="slider_text__title typed__title"></p>
+            </div>
+        </div>
+        <nav class="slides-navigation">
+            <a href="#" class="next"></a>
+            <a href="#" class="prev"></a>
+        </nav>
+    </div>
+    <nav id="navigation" class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#stats">Stats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    <div id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="about__image" src="img/my image.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h4>This is Mahadi Hassan</h4>
+                    <p> Hi there! I'm Mahadi Hassan from Dhaka, Bangladesh.
+                        I am a BSc graduate and now completing my Master's. 
+                        I am a passionate programmer and now invoved on Web
+                        devlopment. I am very passionate about Web and Web 
+                        Devlopment technologies. I have done some project on
+                        front-end designing. I have worked with Javascript,
+                        python Django.
+                    </p>
+                    <p> I graduated from Bangladesh Army University of Engineering
+                        & technology at 2019. I am now enrolled on Master's programm
+                        on Jahangirnagar University on IIT department. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="skills" class="skillsSection section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>TECHNICAL SKILLS</h2>
+                    <p>A representation of my proficiency in each skill</p>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="skill">
+                        <span class="chart" data-percent="67">
+                            <span class="percent">67</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>PHP</h4>
+                        <p>Used in most of the web based prjoects</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="81">
+                            <span class="percent">81</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>HTML</h4>
+                        <p>Used in most of the web based prjoects</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="72">
+                            <span class="percent">72</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>CSS</h4>
+                        <p>Used in most of the web based prjoects</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="55">
+                            <span class="percent">55</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>JS</h4>
+                        <p>Used in most of the web based prjoects</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="65">
+                            <span class="percent">65</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                        <h4>JQuerry</h4>
+                        <p>Used in most of the web based prjoects</p>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+    <div id="stats" class="statsSection section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="fa fa-calendar"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">1</h2>
+                                <h3>Years of Experience</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">110</h2>
+                                <h3>Clients</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="fas fa-clipboard-check"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">62</h2>
+                                <h3>Comeplte Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="squareItem">
+                        <div class="squareInnerContainer">
+                            <div class="squareIcon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="squareContent">
+                                <h2 class="counter">13</h2>
+                                <h3>Running Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="contactSection section">
+        <div class="col-md-122 text-center">
+            <p class="subHeading">Expecting something from me!</p>
+            <h2>I'd love to hear from you!</h2>
+            <a href="mailTo:01.mahadi@gmail.com" class="contractButton">CONTRACT NOW!</a>
+        </div>
+    </div>
+    <div id="portfolio" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="heading">
+                    <h2>PORTFOLIO</h2>
+                </div>
+                <div class="filter">
+                    <ul id="filters">
+                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                        <li><a href="#" data-filter=".apps">APPS</a></li>
+                        <li><a href="#" data-filter=".website">WEBSITES</a></li>
+                        <li><a href="#" data-filter=".template">TEMPLATES</a></li>
+                    </ul>
+                </div>
+                <div class="itemsContainer">
+                    <ul class="items">
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="website col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="website col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="website col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                        <li onclick="" class="template col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                            <div class="item">
+                                <img src="img/portfolio/thumbnails/thumb.png">
+                                <div class="icons">
+                                    <a href="img/portfolio/proj1.jpg" title="View Image" class="openButton" data-fancybox data-caption="This would be the title">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    <a href="" target="_blank" title="Github Repository" class="projectLink">
+                                        <i class="fa fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="imageOverlay"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyrightSection">
+        <div class="col-md-12 text-center">
+            <p>&copy; Copyright Mahadi Hassan 2020</p>
+        </div>
+    </div>
+    <!--This is the atachments for JS for Bootstrap, Super Slider, Popper-->
+    <script src="js/countUp.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+	<script src="js/countUp-jquery.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
